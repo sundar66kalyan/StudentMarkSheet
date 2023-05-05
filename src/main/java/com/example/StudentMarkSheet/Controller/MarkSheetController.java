@@ -48,7 +48,7 @@ public class MarkSheetController {
 	}
 
 	// add by the list of MarkSheetDetailss
-	@PostMapping(value = "/addall")
+	@PostMapping(value = "/addallmarksheet")
 	public String addListMarkSheetDetails(@RequestBody List<MarkSheet> e) {
 		return markser.addaListofMarkSheetDetailss(e);
 	}
